@@ -18,4 +18,5 @@ cc_library_static {
     name: "clang8_tools_libclang",
     defaults: ["clang8_defaults"],
     srcs: ["*.cpp"],
+    whole_static_libs: ["libdl_static"],
 }
